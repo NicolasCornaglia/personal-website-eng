@@ -238,4 +238,29 @@
          max-height: 90%;
       }
    }
+
+   .home-page,
+   .contact-page,
+   .studies-page,
+   .about-page,
+   .projects-page {
+      .text-zone h1 {
+         &::before {
+            content: '<h1>';
+            font-size: 11px;
+         }
+
+         &::after {
+            content: '<h1/>';
+            font-size: 11px;
+         }
+      }
+   }
+
+   .top-html-tag,
+   .top-tags,
+   .bottom-tag-html,
+   .bottom-tags {
+      font-size: 10px;
+   }
 }
