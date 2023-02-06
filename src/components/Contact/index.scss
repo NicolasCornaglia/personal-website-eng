@@ -37,7 +37,7 @@
       width: 100%;
       border: 0;
       background: #115173;
-      height: 50px;
+      height: 40px;
       font-size: 16px;
       color: #fff;
       padding: 0 20px;
@@ -46,13 +46,13 @@
 
    textarea {
       width: 100%;
+      height: 15vh;
       border: 0;
       background: #115173;
-      height: 50px;
       font-size: 16px;
       color: #fff;
       padding: 20px;
-      min-height: 150px;
+      min-height: 70px;
       box-sizing: border-box;
    }
 
@@ -101,6 +101,7 @@
    width: 53%;
    height: 100%;
    margin-right: 10px;
+   max-height: fit-content;
 }
 
 .leaflet-container {

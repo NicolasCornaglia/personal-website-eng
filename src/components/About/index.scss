@@ -1,7 +1,7 @@
 .card-container {
    display: flex;
    gap: 10%;
-   margin-top: 10%;
+   margin-top: 5%;
 
    .card {
       max-width: 50%;
@@ -12,8 +12,10 @@
 
 .profilePicture {
    border-radius: 15px;
-   width: 100%;
-   max-width: 600px;
+   height: 75vh;
+   /* max-width: 600px; */
+   max-height: 80vh;
+   margin-left: 50px;
    
 }
 
@@ -29,7 +31,7 @@
 }
 
 .paragraph-about {
-   font-size: calc(10px + 50%)
+   font-size: 14px;
 }
 
 .text-zone {
@@ -47,13 +49,14 @@
    display: none;
 }
 
+
 @media (max-width: 768px) {
    .pictureContainer {
       display: none
    }
 
    .paragraph-about {
-      font-size: 12px;
+      font-size: 10px;
    }
 
 }

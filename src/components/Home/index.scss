@@ -11,7 +11,7 @@
 
    h1 {
       color: #fff;
-      font-size: 53px;
+      font-size: 45px;
       font-family: 'Coolvetica';
       font-weight: 400;
       margin-left: 20px;
@@ -43,7 +43,7 @@
 
 
       img {
-         width: 52px;
+         width: 42px;
          margin-left: 18px;
          margin-right: 3px;
          opacity: 0;
@@ -90,6 +90,12 @@
    align-items: center;
 }
 
+.logo {
+   max-height: 50vh;
+   display: flex;
+   align-items: center;
+}
+
 @media (max-width: 768px) {
    .logo {
       display: none;
@@ -113,8 +119,8 @@
          font-size: 33px;
          font-family: 'Coolvetica';
          font-weight: 400;
-         margin-left: 20px;
-         /* max-width: 70vw; */
+         margin-left: 10px;
+         max-width: 70vw;
    
          &::before {
             content: '<h1>';
